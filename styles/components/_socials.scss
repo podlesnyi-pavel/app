@@ -1,0 +1,23 @@
+.socials {
+  @include flex-center;
+
+  & > :not(:first-child) {
+    margin-left: 25px;
+  }
+
+  &__link {
+    width: 34px;
+    height: 34px;
+
+    &:hover > svg,
+    &:focus > svg,
+    &:active > svg {
+      fill: $color-pink;
+    }
+
+    & > svg {
+      transition: fill $transition-duration-default;
+      fill: $color-white;
+    }
+  }
+}

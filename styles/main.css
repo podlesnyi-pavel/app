@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@0,500;1,400;1,700;1,900&display=swap");
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.logo {
+  position: relative;
+  z-index: 5;
+  width: 155px;
+  height: 65px;
+}
+
+.logo__img {
+  max-width: 100%;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.socials > :not(:first-child) {
+  margin-left: 25px;
+}
+
+.socials__link {
+  width: 34px;
+  height: 34px;
+}
+
+.socials__link:hover > svg,
+.socials__link:focus > svg,
+.socials__link:active > svg {
+  fill: #D31B83;
+}
+
+.socials__link > svg {
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
+  fill: #fff;
+}
+
+.button {
+  width: 280px;
+  padding: 25px 0;
+  border: 2px solid #352063;
+  border-radius: 10px;
+  background-color: #352063;
+  color: inherit;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.button:hover, .button:focus, .button:active {
+  background-color: #D31B83;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.wrapper::before {
+  content: '';
+  position: absolute;
+  top: 124px;
+  bottom: 148px;
+  left: 0;
+  right: 0;
+  background: url("../images/wrapper-bg.png"), -webkit-gradient(linear, left top, left bottom, color-stop(0.39%, #D80E84), to(#352063));
+  background: url("../images/wrapper-bg.png"), linear-gradient(180deg, #D80E84 0.39%, #352063 100%);
+}
+
+.wrapper__content {
+  position: relative;
+  top: 48px;
+  max-width: 900px;
+  background-color: #D31B83;
+  -webkit-box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 134px;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.promo {
+  max-height: 600px;
+  font-size: 0;
+}
+
+.promo__img {
+  margin-top: -80px;
+}
+
+.slider {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.slider__add {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  cursor: pointer;
+}
+
+.slider__add:hover > svg,
+.slider__add:focus > svg,
+.slider__add:active > svg {
+  fill: #352063;
+}
+
+.slider__add > svg {
+  fill: #fff;
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
+}
+
+.slider__title {
+  margin: 20px 0 0;
+}
+
+.slider__show {
+  max-width: 700px;
+  overflow: hidden;
+}
+
+.slider__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 700px;
+}
+
+.slider__item {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  max-width: 700px;
+}
+
+.slider__button {
+  margin-top: 16px;
+}
+
+.slider__dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.slider__dot {
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.slider__dot:not(:first-child) {
+  margin-left: 8px;
+}
+
+.download {
+  position: relative;
+  margin-top: 57px;
+  margin-bottom: 32px;
+  padding: 52px 27px 32px;
+  background: url("../images/download-bg.jpg") center/cover no-repeat;
+}
+
+.download::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 36%;
+  width: 57px;
+  height: 57px;
+  background: url("../images/ball.png") center/contain no-repeat;
+}
+
+.download::after {
+  content: '';
+  position: absolute;
+  top: -50px;
+  left: 55%;
+  width: 242px;
+  height: 402px;
+  background: url("../images/phone.png") center/contain no-repeat;
+}
+
+.download__descr {
+  max-width: 300px;
+}
+
+.download__title {
+  margin: 0;
+  font-size: 65px;
+}
+
+.download__title::first-letter {
+  text-transform: uppercase;
+}
+
+.download__subtitle {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+}
+
+.download__play {
+  margin-top: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.download__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 42px;
+}
+
+.download__link {
+  width: 134px;
+  height: 40px;
+}
+
+.download__link:not(:first-child) {
+  margin-left: 20px;
+}
+
+.download__link--google {
+  background: url("../images/google.svg") center/contain no-repeat;
+}
+
+.download__link--app {
+  background: url("../images/app.svg") center/contain no-repeat;
+}
+
+.footer {
+  background-color: #352063;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+.descr {
+  margin-bottom: 128px;
+  padding: 15px 0;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #352063;
+}
+/*# sourceMappingURL=main.css.map */

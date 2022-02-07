@@ -1,0 +1,16 @@
+.button {
+  width: 280px;
+  padding: 25px 0;
+  border: 2px solid $color-dark-blue;
+  border-radius: 10px;
+  background-color: $color-dark-blue;
+  color: inherit;
+  cursor: pointer;
+  transition: background-color $transition-duration-default;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $color-pink;
+  }
+}
