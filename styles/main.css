@@ -102,8 +102,8 @@ body {
   bottom: 148px;
   left: 0;
   right: 0;
-  background: url("../images/wrapper-bg.png"), -webkit-gradient(linear, left top, left bottom, color-stop(0.39%, #D80E84), to(#352063));
-  background: url("../images/wrapper-bg.png"), linear-gradient(180deg, #D80E84 0.39%, #352063 100%);
+  background: url("../images/wrapper-bg.webp"), -webkit-gradient(linear, left top, left bottom, color-stop(0.39%, #D80E84), to(#352063));
+  background: url("../images/wrapper-bg.webp"), linear-gradient(180deg, #D80E84 0.39%, #352063 100%);
 }
 
 .wrapper__content {
@@ -246,7 +246,7 @@ body {
   margin-top: 57px;
   margin-bottom: 32px;
   padding: 52px 27px 32px;
-  background: url("../images/download-bg.jpg") center/cover no-repeat;
+  background: url("../images/download-bg.webp") center/cover no-repeat;
 }
 
 .download::before {
@@ -256,7 +256,7 @@ body {
   left: 36%;
   width: 57px;
   height: 57px;
-  background: url("../images/ball.png") center/contain no-repeat;
+  background: url("../images/ball.webp") center/contain no-repeat;
 }
 
 .download::after {
@@ -266,7 +266,7 @@ body {
   left: 55%;
   width: 242px;
   height: 402px;
-  background: url("../images/phone.png") center/contain no-repeat;
+  background: url("../images/phone.webp") center/contain no-repeat;
 }
 
 .download__descr {

@@ -7,6 +7,29 @@
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="./styles/normilize.css">
   <title>VBET Ukraine</title>
+
+    <!-- Primary Meta Tags -->
+  <title>VBET Ukraine</title>
+  <meta name="title" content="VBET Ukraine">
+  <meta name="description" content="Дякуємо, що обрали для гри саме наш сайт.
+  Бажаємо вам отримати максимально приємний досвід та безліч яскравих вражень разом із нами.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://podlesnyi-pavel.github.io/app/">
+  <meta property="og:title" content="VBET Ukraine">
+  <meta property="og:description" content="Дякуємо, що обрали для гри саме наш сайт.
+  Бажаємо вам отримати максимально приємний досвід та безліч яскравих вражень разом із нами.">
+  <meta property="og:image" content="">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://podlesnyi-pavel.github.io/app/">
+  <meta property="twitter:title" content="VBET Ukraine">
+  <meta property="twitter:description" content="Дякуємо, що обрали для гри саме наш сайт.
+  Бажаємо вам отримати максимально приємний досвід та безліч яскравих вражень разом із нами.">
+  <meta property="twitter:image" content="">
+
   <script src="./main.js" defer></script>
 </head>
 <body>
@@ -14,12 +37,18 @@
     <div class="wrapper__content">
       <header class="header">
         <a href="." class="logo">
-          <img class="logo__img" src="./images/logo.svg" alt="vbet logo">
+          <img
+            class="logo__img"
+            src="./images/logo.svg"
+            alt="vbet logo"
+            width="155"
+            height="65"
+          >
         </a>
       </header>
       <main class="main">
         <div class="promo">
-          <img class="promo__img" src="./images/promo-bg.png" alt="promo vbet">
+          <img class="promo__img" src="./images/promo-bg.webp" alt="promo vbet">
         </div>
 
         <div class="container">
@@ -36,6 +65,7 @@
             <div class="slider__show">
               <div class="slider__items">
                 <div class="slider__item">
+
                   <p>Вітаємо на VBET!</p>
                   <p>
                     Дякуємо, що обрали для гри саме наш сайт. <br>
@@ -76,11 +106,7 @@
               </div>
             </div>
 
-            <div class="slider__dots">
-              <!-- <button class="slider__dot slider__dot--active"></button>
-              <button class="slider__dot"></button>
-              <button class="slider__dot"></button> -->
-            </div>
+            <div class="slider__dots"></div>
           </div>
 
           <section class="download">
@@ -89,8 +115,16 @@
               <div class="download__subtitle">VBET APP</div>
               <div class="download__play">грай для задоволення</div>
               <div class="download__links">
-                <a href="#" class="download__link download__link--google"></a>
-                <a href="#" class="download__link download__link--app"></a>
+                <a
+                  href="#"
+                  class="download__link download__link--google"
+                  aria-label="google play"
+                ></a>
+                <a
+                  href="#"
+                  class="download__link download__link--app"
+                  aria-label="app store"
+                ></a>
               </div>
             </div>
           </section>
@@ -100,27 +134,53 @@
         <div class="container">
           <div class="footer__inner">
             <a href="." class="logo">
-              <img class="logo__img" src="./images/logo.svg" alt="vbet logo">
+              <img
+                class="logo__img"
+                src="./images/logo.svg"
+                alt="vbet logo"
+                width="155"
+                height="65"
+              >
             </a>
             <div class="socials">
-              <a class="socials__link" href="#" target="_blank">
+              <a
+                class="socials__link"
+                href="#"
+                target="_blank"
+                aria-label="instagram"
+              >
                 <svg width="34" height="35" viewBox="0 0 34 35" xmlns="http://www.w3.org/2000/svg">
                   <path d="M25.8942 6.95483C24.8066 6.95483 23.9175 7.8413 23.9175 8.92581C23.9175 10.0103 24.8066 10.8968 25.8942 10.8968C26.9819 10.8968 27.8709 10.0103 27.8709 8.92581C27.8709 7.8413 26.9913 6.95483 25.8942 6.95483Z"/>
                   <path d="M17.1173 9.48267C12.5398 9.48267 8.82288 13.1983 8.82288 17.7532C8.82288 22.3176 12.5492 26.0238 17.1173 26.0238C21.6949 26.0238 25.4118 22.3082 25.4118 17.7532C25.4118 13.1983 21.6949 9.48267 17.1173 9.48267ZM17.1173 23.0532C14.1854 23.0532 11.8021 20.6767 11.8021 17.7532C11.8021 14.8298 14.1854 12.4533 17.1173 12.4533C20.0493 12.4533 22.4326 14.8298 22.4326 17.7532C22.4326 20.6767 20.0493 23.0532 17.1173 23.0532Z"/>
                   <path d="M23.7 34.5587H10.251C4.67096 34.5587 0.131226 30.032 0.131226 24.468V11.0484C0.131226 5.48441 4.67096 0.957764 10.251 0.957764H23.7C29.2801 0.957764 33.8198 5.48441 33.8198 11.0484V24.4586C33.8293 30.032 29.2895 34.5587 23.7 34.5587ZM10.251 4.11699C6.42064 4.11699 3.29958 7.22906 3.29958 11.0484V24.4586C3.29958 28.278 6.42064 31.39 10.251 31.39H23.7C27.5304 31.39 30.6515 28.278 30.6515 24.4586V11.0484C30.6515 7.22906 27.5304 4.11699 23.7 4.11699H10.251Z"/>
                 </svg>
               </a>
-              <a class="socials__link" href="#" target="_blank">
+              <a
+                class="socials__link"
+                href="#"
+                target="_blank"
+                aria-label="facebook"
+              >
                 <svg width="19" height="35" viewBox="0 0 19 35" xmlns="http://www.w3.org/2000/svg">
                   <path d="M17.6079 19.8551L18.544 13.7741H12.6913V9.8333C12.6913 8.17399 13.5044 6.5524 16.1235 6.5524H18.7804V1.3765C18.7804 1.3765 16.3693 0.96167 14.0623 0.96167C9.24015 0.96167 6.10105 3.87488 6.10105 9.14506V13.7741H0.749451V19.8551H6.10105V34.5532H12.6913V19.8551H17.6079Z"/>
                 </svg>
               </a>
-              <a class="socials__link" href="#" target="_blank">
+              <a
+                class="socials__link"
+                href="#"
+                target="_blank"
+                aria-label="telegram"
+              >
                 <svg width="34" height="28" viewBox="0 0 34 28" xmlns="http://www.w3.org/2000/svg">
                   <path d="M33.3616 2.4182C33.0565 4.48368 32.7113 6.91743 32.3259 9.35118C31.507 14.5789 30.6639 19.8067 29.8209 25.0344C29.5158 26.9478 28.6808 27.5082 26.802 27.0359C26.1517 26.8758 25.4692 26.6516 24.9152 26.2833C21.9205 24.2819 18.9418 22.2644 16.0032 20.183C14.5178 19.1342 14.566 18.2696 15.8827 17.0367C18.7169 14.3868 21.5271 11.6969 24.3372 9.01494C24.6824 8.6867 24.9554 8.27841 25.1963 7.86211C25.3087 7.66997 25.2605 7.38977 25.2846 7.1496C25.0437 7.14159 24.7707 7.04552 24.578 7.13359C23.9116 7.44581 23.2452 7.76604 22.635 8.16633C18.7892 10.7282 14.9514 13.306 11.1216 15.8999C9.84503 16.7645 8.48815 16.9246 7.059 16.5003C5.26856 15.9639 3.47812 15.4035 1.7198 14.7631C1.30229 14.611 0.796474 14.1786 0.716185 13.7944C0.651954 13.4741 1.09354 12.9698 1.42273 12.6736C1.74388 12.3854 2.20153 12.2252 2.61903 12.0491C11.772 8.28641 20.9169 4.51571 30.0698 0.753005C30.5355 0.560868 31.0333 0.400753 31.531 0.344712C32.8157 0.192603 33.3937 0.761011 33.3616 2.4182Z"/>
                 </svg>
               </a>
-              <a class="socials__link" href="#" target="_blank">
+              <a
+                class="socials__link"
+                href="#"
+                target="_blank"
+                aria-label="web"
+              >
                 <svg width="34" height="35" viewBox="0 0 34 35" xmlns="http://www.w3.org/2000/svg">
                   <path d="M33.9157 16.1924C33.1216 7.65948 25.8999 0.96167 17.1368 0.96167C8.38298 0.96167 1.16132 7.65948 0.367219 16.1924H0.29248V19.3224H0.367219C1.16132 27.8554 8.38298 34.5532 17.1368 34.5532C25.8999 34.5532 33.1216 27.8554 33.9063 19.3224H33.9811V16.1924H33.9157ZM30.758 16.1924H24.4051C24.2463 11.9818 23.4522 7.87373 22.0415 4.99526C26.7221 6.79314 30.1694 11.0689 30.758 16.1924ZM17.1368 31.4325C15.8102 31.4325 13.3064 27.1753 13.0075 19.3224H21.2754C20.9765 27.1753 18.4634 31.4325 17.1368 31.4325ZM13.0075 16.1924C13.3064 8.34882 15.8102 4.08235 17.1368 4.08235C18.4634 4.08235 20.9672 8.33951 21.2661 16.1924H13.0075ZM12.232 4.99526C10.8307 7.88305 10.0272 11.9818 9.86841 16.1924H3.5156C4.10417 11.0689 7.5515 6.79314 12.232 4.99526ZM3.5156 19.3224H9.86841C10.0272 23.533 10.8213 27.6411 12.232 30.5196C7.5515 28.731 4.10417 24.4552 3.5156 19.3224ZM22.0509 30.5196C23.4522 27.6318 24.2557 23.533 24.4145 19.3224H30.7673C30.1694 24.4552 26.7221 28.731 22.0509 30.5196Z"/>
                 </svg>

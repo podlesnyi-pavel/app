@@ -6,11 +6,11 @@ function createDots() {
   slides.forEach((item, index) => {
     if (index === 0) {
       dots.innerHTML += `
-        <button class="slider__dot slider__dot--active" data-count="${index}"></button>
+        <button class="slider__dot slider__dot--active" data-count="${index}" aria-label="${index} slide"></button>
       `;
     } else {
       dots.innerHTML +=
-        `<button class="slider__dot"  data-count="${index}"></button>
+        `<button class="slider__dot" data-count="${index}" aria-label="${index} slide"></button>
       `;
     }
   });
